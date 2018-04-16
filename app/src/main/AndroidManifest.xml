@@ -27,14 +27,18 @@
         <activity
             android:name=".activity.LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".activity.ShowDetailActivity" />
-        <activity android:name=".activity.ChangeUserInfoActivity" />
-        <activity android:name=".activity.ShowPhotoActivity" />
-        <activity android:name=".activity.CreatePhotoActivity" />
-        <activity android:name=".activity.AboutActivity" />
-        <activity
-            android:name=".activity.SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+        <activity android:name=".activity.ShowDetailActivity"
+            android:label="动态"/>
+        <activity android:name=".activity.ChangeUserInfoActivity"
+            android:label="修改信息"/>
+        <activity android:name=".activity.ShowPhotoActivity"
+            android:label=" "/>
+        <activity android:name=".activity.CreatePhotoActivity"
+            android:label="新建照片"/>
+        <activity android:name=".activity.AboutActivity"
+            android:label="关于"/>
+        <activity android:name=".activity.SettingsActivity"
+            android:label="设置" />
     </application>
 
 </manifest>

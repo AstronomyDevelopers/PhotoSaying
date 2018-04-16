@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity
                 if(!isUserLogin){
                     Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                     startActivity(intent);
+                } else {
+                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(intent);
                 }
             }
         });
@@ -92,12 +95,15 @@ public class MainActivity extends AppCompatActivity
                 switch (item.getItemId()){
                     case R.id.button_home:
                         viewPager.setCurrentItem(0);
+                        fab.setVisibility(FloatingActionButton.VISIBLE);
                         break;
                     case R.id.button_community:
                         viewPager.setCurrentItem(1);
+                        fab.setVisibility(FloatingActionButton.GONE);
                         break;
                     case R.id.buttom_me:
                         viewPager.setCurrentItem(2);
+                        fab.setVisibility(FloatingActionButton.GONE);
                         break;
                 }
                 return false;
@@ -156,7 +162,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
             startActivity(intent);
         } else if (id == R.id.action_about) {
             Intent intent = new Intent(MainActivity.this, AboutActivity.class);
@@ -178,7 +184,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if(id == R.id.nav_gallery) {
 
-        } else if(id == R.id.action_settings) {
+        } else if(id == R.id.nav_setting) {
             Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
             startActivity(intent);
         } else if(id == R.id.nav_share) {

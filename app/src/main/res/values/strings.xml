@@ -21,24 +21,21 @@
     <string name="button_me">我</string>
 
     <!-- 登录界面 -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="prompt_email">手机/邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">邮箱格式不正确</string>
+    <string name="error_invalid_phone">手机格式不正确</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">此处为必填项</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_settings">Settings</string>
+    <!-- 关于界面 -->
+    <string name="about">关于</string>
 
-    <!-- Strings related to Settings -->
 
+    <!-- 设置相关 -->
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
 
