@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
@@ -70,7 +69,7 @@ public class MainActivity extends AppCompatActivity
         // NavigationView菜单头像点击事件监听
         // 要实现这个功能，要使用动态加载头部布局文件，要不然findViewById会报NullPointer错误
         drawView = navigationView.inflateHeaderView(R.layout.nav_header_main);
-        ImageView imageView = (ImageView) drawView.findViewById(R.id.ivHeader);
+        ImageView imageView = (ImageView) drawView.findViewById(R.id.iv_header);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -88,7 +87,7 @@ public class MainActivity extends AppCompatActivity
 
         // 设置底部导航栏监听器
         viewPager = (ViewPager) findViewById(R.id.viewPager);
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigation);
+        bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
