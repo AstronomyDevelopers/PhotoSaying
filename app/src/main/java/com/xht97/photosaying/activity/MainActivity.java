@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity
                         viewPager.setCurrentItem(1);
                         fab.setVisibility(FloatingActionButton.VISIBLE);
                         break;
-                    case R.id.buttom_me:
+                    case R.id.button_me:
                         viewPager.setCurrentItem(2);
                         fab.setVisibility(FloatingActionButton.GONE);
                         break;
