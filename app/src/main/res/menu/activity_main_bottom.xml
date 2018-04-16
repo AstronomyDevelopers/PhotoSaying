@@ -10,7 +10,7 @@
         android:icon="@drawable/ic_button_photo"
         android:title="@string/button_community" />
     <item
-        android:id="@+id/buttom_me"
+        android:id="@+id/button_me"
         android:icon="@drawable/ic_button_me"
         android:title="@string/button_me" />
 

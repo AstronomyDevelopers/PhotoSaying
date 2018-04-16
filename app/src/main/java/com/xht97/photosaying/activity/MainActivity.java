@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity
                         break;
                     case R.id.button_community:
                         viewPager.setCurrentItem(1);
-                        fab.setVisibility(FloatingActionButton.GONE);
+                        fab.setVisibility(FloatingActionButton.VISIBLE);
                         break;
                     case R.id.buttom_me:
                         viewPager.setCurrentItem(2);
@@ -135,6 +135,11 @@ public class MainActivity extends AppCompatActivity
                 }
                 menuItem = bottomNavigationView.getMenu().getItem(position);
                 menuItem.setChecked(true);
+                if (position == 0 || position == 1) {
+                    fab.setVisibility(FloatingActionButton.VISIBLE);
+                } else {
+                    fab.setVisibility(FloatingActionButton.GONE);
+                }
             }
 
             @Override
