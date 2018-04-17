@@ -8,27 +8,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-       >
+        android:orientation="vertical" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:text="我的主页"
             android:textSize="20dp"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="6px"
+            android:layout_height="2dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
             android:background="#DBDBDB" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:orientation="horizontal"
         >
         <ImageView
@@ -60,7 +64,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:orientation="horizontal"
         >
 
@@ -88,4 +93,4 @@
     </LinearLayout>
 
 
-    </LinearLayout>
+</LinearLayout>
