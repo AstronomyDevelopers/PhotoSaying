@@ -3,15 +3,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/button_home"
-        android:textSize="30sp" />
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="我的主页"
+            android:textSize="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6px"
+            android:background="#DBDBDB" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/photo_community_3"
+            />
+
+        <ImageView
+
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/photo_community_2"
+            android:layout_marginLeft="10dp"
+         />
+
+        <ImageView
+
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/photo_community_1"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/photo_community_5" />
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/photo_community_4"
+
+            />
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/photo_community_7" />
+    </LinearLayout>
 
 
-</LinearLayout>
+    </LinearLayout>
