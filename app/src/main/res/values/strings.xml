@@ -20,6 +20,10 @@
     <string name="button_community">社区</string>
     <string name="button_me">我</string>
 
+    <string name="me_bar">   |   </string>
+    <string name="me_photo">作品</string>
+    <string name="me_text">文字</string>
+
     <!-- 登录界面 -->
     <string name="prompt_email">手机/邮箱</string>
     <string name="prompt_password">密码</string>

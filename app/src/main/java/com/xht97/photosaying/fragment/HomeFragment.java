@@ -15,9 +15,19 @@ import com.xht97.photosaying.R;
 
 public class HomeFragment extends Fragment {
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        initData();
+    }
+
     @Nullable
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Log.d("HomeFragment", "Create View");
         return inflater.inflate(R.layout.fragment_home, container, false);
+    }
+
+    private void initData() {
+        // TODO: 加载初始数据
     }
 }
