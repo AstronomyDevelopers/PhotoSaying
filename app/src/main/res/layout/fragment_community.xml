@@ -31,13 +31,13 @@
                     android:layout_marginBottom="16dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:src="@drawable/my_logo"
+                        android:src="@drawable/my_logo_2"
                         android:layout_width="0dp"
                         android:layout_height="32dp"
                         android:layout_weight="1" />
 
                     <TextView
-                        android:text="TommyXu97"
+                        android:text="swx"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="2" />
@@ -147,19 +147,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center"
                     android:layout_marginBottom="16dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
+                        android:src="@drawable/my_logo"
                         android:layout_width="0dp"
                         android:layout_height="32dp"
-                        android:layout_weight="0.5" />
+                        android:layout_weight="1" />
 
                     <TextView
+                        android:text="TommyXu97"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="3" />
+                        android:layout_weight="2" />
 
                     <TextView
+                        android:text="12:28"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
@@ -167,16 +171,32 @@
                 </LinearLayout>
 
                 <TextView
+                    android:text="幸福来源于我们自己。"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginBottom="16dp"/>
 
-                <ImageView
-                    android:layout_width="240dp"
-                    android:layout_height="120dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginBottom="16dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/photo_community_1"
+                        android:layout_gravity="left"
+                        android:layout_width="240dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <ImageView
+                        android:src="@drawable/ic_action_music"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_margin="16dp"/>
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -190,6 +210,7 @@
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -201,6 +222,7 @@
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="9"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -212,6 +234,7 @@
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -229,7 +252,6 @@
                     android:layout_height="1dp"
                     android:layout_margin="8dp"
                     android:background="#BDBDBD" />
-
 
             </LinearLayout>
 
@@ -245,19 +267,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center"
                     android:layout_marginBottom="16dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
+                        android:src="@drawable/my_logo_3"
                         android:layout_width="0dp"
                         android:layout_height="32dp"
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="zy"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="2" />
 
                     <TextView
+                        android:text="9:06"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
@@ -265,16 +291,32 @@
                 </LinearLayout>
 
                 <TextView
+                    android:text="溪午不闻钟，树深时见鹿。"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginBottom="16dp"/>
 
-                <ImageView
-                    android:layout_width="240dp"
-                    android:layout_height="120dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginBottom="16dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/photo_community_4"
+                        android:layout_gravity="left"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <ImageView
+                        android:src="@drawable/ic_action_music"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_margin="16dp"/>
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -288,6 +330,7 @@
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="18"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -299,6 +342,7 @@
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -310,6 +354,7 @@
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -327,7 +372,6 @@
                     android:layout_height="1dp"
                     android:layout_margin="8dp"
                     android:background="#BDBDBD" />
-
 
             </LinearLayout>
 
